@@ -10,10 +10,10 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Prakash Bakery | Fresh Cakes, Pastries & Bakery Items</title>
+        <title>Lalwani Traders | Fresh Cakes, Pastries & Bakery Items</title>
         <meta name="description" content="Freshly baked happiness every day. Cakes, pastries, breads, and snacks made with love at Lalwani Traders." />
       </Helmet>
-      
+
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-overlay"></div>
@@ -117,7 +117,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="text-center" style={{ marginTop: '40px' }}>
             <Link to="/menu" className="btn btn-secondary">View Full Menu</Link>
           </div>
@@ -138,9 +138,9 @@ const Home = () => {
                 Our breads are made using traditional methods, taking time to develop the perfect flavor and crust. From sourdough to whole wheat, experience the true taste of authentic baking.
               </p>
               <ul className="fresh-bread-list">
-                <li><Award size={20} className="text-warm-brown"/> 100% Organic Wheat</li>
-                <li><Award size={20} className="text-warm-brown"/> No Artificial Preservatives</li>
-                <li><Award size={20} className="text-warm-brown"/> Natural Sourdough Starter</li>
+                <li><Award size={20} className="text-warm-brown" /> 100% Organic Wheat</li>
+                <li><Award size={20} className="text-warm-brown" /> No Artificial Preservatives</li>
+                <li><Award size={20} className="text-warm-brown" /> Natural Sourdough Starter</li>
               </ul>
               <Link to="/menu" className="btn btn-primary">Discover Breads</Link>
             </div>
